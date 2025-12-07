@@ -1,29 +1,29 @@
 # HR Workflow Designer
 
-A visual HR workflow designer where HR admins can build and test internal workflows such as onboarding, leave approval, and document verification using a node-based canvas. [web:25][web:37]
+A visual HR workflow designer where HR admins can build and test internal workflows such as onboarding, leave approval, and document verification using a node-based canvas. 
 
-🔗 **Live Demo**: https://hr-work-flow.vercel.app/ [web:1]
+🔗 **Live Demo**: https://hr-work-flow.vercel.app/ 
 
 ---
 
 ## Features
 
 - Visual drag-and-drop workflow builder using a node-based canvas.
-- Multiple node types for HR processes (start, task, approval, automated, end). [memory:5][web:25]
+- Multiple node types for HR processes (start, task, approval, automated, end).
 - Connect nodes with edges to define workflow paths.
 - Sidebar for adding and configuring nodes.
 - Workflow inspector / forms for editing node details.
-- Built with modern React + Vite setup for fast development. [web:1][web:19]
+- Built with modern React + Vite setup for fast development. 
 
 ---
 
 ## Tech Stack
 
-- **Frontend:** React (Vite React template) [web:1][web:19]  
-- **Canvas / Flows:** `@xyflow/react` (React Flow successor) for node-based UI. [memory:1][web:25][web:37]  
+- **Frontend:** React (Vite React template) 
+- **Canvas / Flows:** `@xyflow/react` (React Flow successor) for node-based UI.
 - **Tooling:**  
-  - Vite for bundling and dev server. [web:19]  
-  - ESLint for linting and code quality. [web:1]  
+  - Vite for bundling and dev server.  
+  - ESLint for linting and code quality.  
 
 ---
 
@@ -41,7 +41,7 @@ A visual HR workflow designer where HR admins can build and test internal workfl
 
 ## Core Concepts
 
-- **Nodes:** Represent HR steps (e.g., “Start Onboarding”, “Manager Approval”, “Send Email”). [memory:5][web:25]  
+- **Nodes:** Represent HR steps (e.g., “Start Onboarding”, “Manager Approval”, “Send Email”). 
 - **Edges:** Connections between nodes defining the direction and order of the workflow.  
 - **Canvas:** React Flow / XyFlow-powered area where nodes and edges are rendered and manipulated.  
 - **Inspector / Forms:** Side panels to edit node metadata such as titles, roles, thresholds, and settings.
@@ -70,25 +70,25 @@ A visual HR workflow designer where HR admins can build and test internal workfl
 
 ### Implemented
 
-- Basic HR workflow canvas with multiple node types. [memory:16][web:25]  
+- Basic HR workflow canvas with multiple node types. 
 - Drag-and-drop node creation and edge connections.  
 - Node inspector and forms for editing node data.  
-- Vite-based dev/build setup and ESLint configuration. [web:19][web:1]  
-- Deployed demo on Vercel. [web:1]
+- Vite-based dev/build setup and ESLint configuration.  
+- Deployed demo on Vercel.
 
 ### Potential Improvements
 
-- Persist workflows to a backend (e.g., REST/GraphQL API). [web:34]  
-- Authentication and per-user saved workflows. [web:34]  
+- Persist workflows to a backend (e.g., REST/GraphQL API).  
+- Authentication and per-user saved workflows.  
 - Role-based access and permissions for editing and approving steps.  
-- Workflow simulation with step-by-step execution and validation. [web:25]  
-- Test coverage (unit/integration) with Vitest/React Testing Library. [web:34]
+- Workflow simulation with step-by-step execution and validation. 
+- Test coverage (unit/integration) with Vitest/React Testing Library.
 
 ---
 
 ## Scripts
 
-Common npm scripts available in this project: [web:19][web:36]
+Common npm scripts available in this project:
 
 - `npm run dev` – Start development server  
 - `npm run build` – Create production build  
@@ -101,24 +101,23 @@ Common npm scripts available in this project: [web:19][web:36]
 
 The project is currently deployed on **Vercel** at:
 
-- https://hr-work-flow.vercel.app/ [web:1]
+- https://hr-work-flow.vercel.app/ 
 
 To redeploy:
 
 1. Push changes to the `master` branch of this repository.  
-2. Ensure Vercel is configured to use the Vite build command (`npm run build`) and output (`dist`). [web:35]
+2. Ensure Vercel is configured to use the Vite build command (`npm run build`) and output (`dist`). 
 
 ---
 
 ## Author
 
 - **Balamanikandan** – MERN / React Developer  
-- GitHub: https://github.com/balamanikandan9232 [web:1]
+- GitHub: https://github.com/balamanikandan9232 
 
 ---
 
 ## License
 
-This project is currently unpublished under a specific license.  
-You can optionally add **MIT License** or any other license later as needed. [web:26][web:21]
+This project is currently unpublished under a specific license.
 
