@@ -4,6 +4,10 @@ A visual HR workflow designer where HR admins can build and test internal workfl
 
 🔗 **Live Demo**: https://hr-work-flow.vercel.app/ 
 
+
+<img width="1904" height="918" alt="image" src="https://github.com/user-attachments/assets/6548562f-ca46-4be2-bf0c-6e0071692c86" />
+
+
 ---
 
 ## Features
@@ -55,7 +59,7 @@ A visual HR workflow designer where HR admins can build and test internal workfl
 3. Connect nodes by dragging from a source handle to a target handle.
 4. Select a node to edit its details in the inspector (e.g., approver role, labels, thresholds). 
 5. Iterate on your workflow until it matches your HR process.
-
+6. Set Browser WindowSize - 65%
 ---
 
 ## Design & Architecture Notes
